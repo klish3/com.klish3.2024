@@ -1,0 +1,19 @@
+"use client";
+import { Card } from "flowbite-react";
+import Nav from "./Nav";
+
+import ebpgf from "./assets/24332308.webp";
+import { TimeLineKli } from "./components/Timeline/Timeline";
+import { Resume } from "./pages/Resume/Resume";
+const App = () => {
+  return (
+    <>
+      <Nav />
+      <main className="flex min-h-screen items-center justify-center gap-2 dark:bg-gray-800">
+        <Resume />
+      </main>
+    </>
+  );
+};
+
+export default App;
