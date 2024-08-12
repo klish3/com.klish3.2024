@@ -1,55 +1,56 @@
 "use client";
 
-
-
-
 export const Experience = () => {
   return (
     <>
       <div className="mb-6">
-        <h2 className="mb-2 text-xl font-bold">Professional Experience</h2>
-        <h4 className="mb-2 text-lg font-bold">Esure Group</h4>
+        <h2 className="mb-2 text-xl font-bold">
+          Professional
+          <mark className="rounded bg-blue-600 px-2 text-white dark:bg-blue-500">
+            Experience
+          </mark>
+        </h2>
+
+        <h4 className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-2xl lg:text-3xl">
+          <span className="underline-offset-5 decoration-3 underline decoration-blue-400 dark:decoration-blue-600">
+            Esure Group
+          </span>
+        </h4>
         <div className="mb-4">
           <h3 className="text-lg font-bold">Technical Lead</h3>
           <p> Reigate, UK | July 2022 - Present</p>
           <ul className="list-disc pl-4">
             <li>
-              Established and led the Front-End Guild, implementing a robust
-              governance framework for front-end development across the
-              organization.
+              Revolutionized front-end development by establishing the Front-End
+              Guild with robust governance framework.
             </li>
             <li>
-              Spearheaded the development of esure's first conversational
-              interface, enhancing accessibility for claimants and improving
-              user experience.
+              Pioneered esure's first conversational interface, dramatically
+              improving claimant accessibility and user experience.
             </li>
             <li>
-              Implemented advanced application monitoring using AWS Synthetics
-              Canaries via Grafana, ensuring proactive issue identification
-              and resolution.
+              Engineered advanced application monitoring using AWS Synthetics
+              Canaries via Grafana, ensuring preemptive issue resolution.
             </li>
             <li>
-              Pioneered a comprehensive fraud detection system, achieving 100%
-              tracking and mitigation of fraudulent claims applications.
+              Developed a cutting-edge fraud detection system, achieving 100%
+              tracking and elimination of fraudulent claims.
             </li>
             <li>
-              Led the Claims Fulfilment Team in deploying Prizmdoc,
-              significantly enhancing security measures for customer data
-              protection.
+              Spearheaded Prizmdoc deployment in Claims Fulfilment,
+              significantly bolstering customer data security.
             </li>
             <li>
-              Implemented customer behavior monitoring with Segment and
-              Satisment, enabling data-driven improvements to customer
-              experience.
+              Implemented Segment and Satisment for customer behavior analysis,
+              driving data-driven CX improvements.
             </li>
             <li>
-              Managed infrastructure resources using Terraform, collaborating
-              with DevOps and InfoSec teams to ensure seamless integration and
-              security compliance.
+              Mastered infrastructure management with Terraform, seamlessly
+              integrating DevOps and InfoSec practices.
             </li>
             <li>
-              Cultivated a high-performing Digital Claims team, fostering a
-              culture of mentorship and continuous skill development.
+              Built and mentored a high-performance Digital Claims team,
+              fostering continuous skill advancement.
             </li>
           </ul>
         </div>
@@ -94,8 +95,7 @@ export const Experience = () => {
             </li>
             <li>
               Managed deployment and maintenance of the BFF on OpenShift,
-              implementing CI/CD pipelines for automated testing and
-              deployment.
+              implementing CI/CD pipelines for automated testing and deployment.
             </li>
           </ul>
         </div>
@@ -105,9 +105,8 @@ export const Experience = () => {
           <p>Guildford, Surrey | July 2019 - April 2020</p>
           <ul className="list-disc pl-4">
             <li>
-              Developed complex Angular applications, utilizing Angular
-              Material and Bootstrap 4 for responsive and intuitive user
-              interfaces.
+              Developed complex Angular applications, utilizing Angular Material
+              and Bootstrap 4 for responsive and intuitive user interfaces.
             </li>
             <li>
               Collaborated with UX/UI designers using Figma to create visually

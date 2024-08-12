@@ -1,3 +1,4 @@
+export * from "./Certifications";
 export * from "./Competencies";
 export * from "./Education";
 export * from "./Experience";

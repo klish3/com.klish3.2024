@@ -1,60 +1,61 @@
 "use client";
 
-import { Accordion, List, ListItem } from "flowbite-react";
-
-
-
+import { List, ListItem } from "flowbite-react";
 
 export const Competencies = () => {
   return (
     <>
+      <h2 className="my-4 text-5xl text-gray-300 dark:text-white">
+        Core Competencies
+      </h2>
       <div className="mb-6">
-        <h2 className="mb-2 text-xl font-bold">Core Competencies</h2>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           <p className="mb-3 ">
+            <h2 className="mb-2 text-lg font-bold">Leadership</h2>
             <List>
-              <ListItem>TypeScript</ListItem>
-              <ListItem>JavaScript</ListItem>
-              <ListItem>React</ListItem>
-              <ListItem>React Native</ListItem>
+              <ListItem>Leadership</ListItem>
+              <ListItem>Business acumen</ListItem>
+              <ListItem>System design</ListItem>
+
+              <ListItem>Effective communication skills</ListItem>
+
+              <ListItem>Critical and strategic thinking</ListItem>
+              <ListItem>
+                Adaptability through continuous learning mindset
+              </ListItem>
+              <ListItem>Agile</ListItem>
             </List>
           </p>
           <p className="mb-3">
+            <h2 className="mb-2 text-lg font-bold">Technical</h2>
             <List>
-              <ListItem>Angular</ListItem>
-              <ListItem>Cloud Services</ListItem>
               <ListItem>AWS</ListItem>
-              <ListItem>DevOps &amp; Infrastructure</ListItem>
+              <ListItem>OpenShift</ListItem>
+              <ListItem>Kubernetes</ListItem>
+              <ListItem>Azure</ListItem>
+              <ListItem>Front-end architecture</ListItem>
+              <ListItem>Web Security</ListItem>
+            </List>
+          </p>
+
+          <p className="mb-3 ">
+            <h2 className="mb-2 text-lg font-bold">Languages</h2>
+            <List>
+              <ListItem>TypeScript</ListItem>
+              <ListItem>JavaScript</ListItem>
+              <ListItem>Jenkins</ListItem>
+            </List>
+          </p>
+          <p className="mb-3 ">
+            <h2 className="text-lgh mb-2 font-bold">Frameworks</h2>
+            <List>
+              <ListItem>React</ListItem>
+              <ListItem>React Native</ListItem>
+              <ListItem>Angular</ListItem>
+              <ListItem>Terraform</ListItem>
             </List>
           </p>
         </div>
-
-        <Accordion collapseAll flush>
-          <Accordion.Panel>
-            <Accordion.Title>Extra</Accordion.Title>
-            <Accordion.Content>
-              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-                <p className="mb-3 ">
-                  <List>
-                    <ListItem>Terraform</ListItem>
-                    <ListItem>Jenkins</ListItem>
-                    <ListItem>OpenShift</ListItem>
-                    <ListItem>Team Leadership &amp; Mentoring</ListItem>
-                  </List>
-                </p>
-                <p className="mb-3 ">
-                  <List>
-                    <ListItem>Agile Methodologies</ListItem>
-                    <ListItem>Security &amp; Fraud Detection</ListItem>
-                    <ListItem>UI/UX Design</ListItem>
-                  </List>
-                </p>
-              </div>
-
-              <List></List>
-            </Accordion.Content>
-          </Accordion.Panel>
-        </Accordion>
       </div>
     </>
   );
