@@ -20,7 +20,7 @@ export const Header = () => {
         </div>
         <div className="mb-3 text-right">
           <p>
-            <a href="https://www.linkedin.com/in/tawandaklicom">
+            <a href="https://www.linkedin.com/in/tawandakli">
               linkedin.com/tawandakli
             </a>
           </p>
