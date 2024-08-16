@@ -1,8 +1,5 @@
 "use client";
 
-
-
-
 export const Education = () => {
   return (
     <>
@@ -17,8 +14,6 @@ export const Education = () => {
           <p>Diploma in Visual Communication | 2008 - 2009</p>
         </div>
       </div>
-
-
     </>
   );
 };

@@ -5,5 +5,5 @@ export * from "./Experience";
 export * from "./Header";
 export * from "./Resume";
 export * from "./Summary";
-export * from "./ComingSoon";
+
 export * from "./Landing";

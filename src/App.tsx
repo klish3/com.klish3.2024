@@ -1,11 +1,11 @@
 "use client";
 
-import { ComingSoon } from "./pages/Resume/ComingSoon";
+import { Landing } from "./pages/Resume";
 
 const App = () => {
   return (
     <>
-      <ComingSoon />
+      <Landing />
     </>
   );
 };
