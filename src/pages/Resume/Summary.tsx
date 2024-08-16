@@ -30,7 +30,7 @@ export const Summary = () => {
           </svg>
         </blockquote>
       </div>
-      <p className="my-6 px-10">
+      <p className="my-6 px-10 text-gray-900 dark:text-white">
         Proven expertise in TypeScript, React, React Native, Angular, and AWS
         services. Demonstrated success in implementing cutting-edge
         technologies, fostering team growth, and delivering high-impact
